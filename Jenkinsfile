@@ -8,7 +8,7 @@ pipeline{
         }
         stage('artifacts'){
             steps{
-                archiveArtifacts artifacts: '/var/lib/jenkins/workspace/train-schedule_master/dist/trainSchedule.zip'
+                archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
         }
     }
